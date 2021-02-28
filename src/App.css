@@ -1,10 +1,9 @@
 body {
   background-color: black;
   color: white;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 button {
-  background-color: #ffcc29;
   border: none;
   border-radius: 15px;
   padding: 0.5em;
@@ -24,26 +23,17 @@ h4 {
   font-size: 1em;
 }
 header {
-  background-color: #09015f;
-  display: flex;
-  justify-content: center;
+  background-color: #8ba892;
   padding: 2em;
-  width: 450px;
 }
 li {
   list-style-type: none;
-}
-.buttons {
-  display: flex;
-  max-height: 2.5em;
 }
 .celsius {
   margin-left: 0.5em;
 }
 .container {
   width: 450px;
-  height: 100%;
-  padding: 0;
 }
 .farenheit {
   margin-right: 0.5em;
@@ -52,29 +42,24 @@ li {
   text-align: center;
   padding-top: 2em;
 }
-.new-day {
+.time-of-day {
   display: flex;
   justify-content: space-between;
   padding: 1em;
 }
-.search-bar {
-  display: block;
-  margin: 0 auto;
-  padding-bottom: 2em;
-}
-.today {
-  background-color: #af0069;
+.morning {
+  background-color: #f2d974;
   display: flex;
 }
-.tomorrow {
-  background-color: #db6400;
+.day {
+  background-color: #c7956d;
   display: flex;
 }
-.day-after-tomorrow {
-  background-color: #81b214;
+.evening {
+  background-color: #965d62;
   display: flex;
 }
-.day-after-that {
-  background-color: #52057b;
+.night {
+  background-color: #534e52;
   display: flex;
 }

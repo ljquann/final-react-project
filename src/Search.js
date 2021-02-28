@@ -14,7 +14,7 @@ export default function Search() {
   }
 
   return (
-    <div className="search">
+    <header className="search row">
          <form onSubmit={handleSubmit} className="search-bar">
             <input
             type="search"
@@ -30,6 +30,6 @@ export default function Search() {
         <button className="celsius"> °C </button>
       </div>
       </div>
-    </div>
+    </header>
   );
 }

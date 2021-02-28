@@ -3,19 +3,16 @@ import React from "react";
 export default function Forecast(){
     return (
         <div className="forecast">
-            <div className="today new-day row">
-            <div className="far-left col-4">
+            <div className="morning time-of-day row">
+            <div className="icon col-7">
                 <h2>
-                    Today
+                    Description
                 </h2>
-                <h3>
-                    Time
-                </h3>
+                <h3>🍕</h3>
             </div>
-            <div className="icon col-4">
-                ☔️
-            </div>
-            <div className="forcast col-4">
+            <div className="forcast col-5">
+                <h2>Morning</h2>
+                <h3>Time</h3>
                 <ul>
                     <li>Temp</li>
                     <li>Description</li>
@@ -24,19 +21,16 @@ export default function Forecast(){
                 </ul>
             </div>
         </div>
-        <div className="tomorrow new-day row">
-            <div className="far-left col-4">
+       <div className="day time-of-day row">
+            <div className="icon col-7">
                 <h2>
-                    Tomorrow
+                    Description
                 </h2>
-                <h3>
-                    Time
-                </h3>
+                <h3>🍕</h3>
             </div>
-            <div className="icon col-4">
-                ☔️
-            </div>
-            <div className="forcast col-4">
+            <div className="forcast col-5">
+                <h2>Day</h2>
+                <h3>Time</h3>
                 <ul>
                     <li>Temp</li>
                     <li>Description</li>
@@ -45,19 +39,16 @@ export default function Forecast(){
                 </ul>
             </div>
         </div>
-        <div className="day-after-tomorrow new-day row">
-            <div className="far-left col-4">
-                <h2>
-                    Day After Tomorrow
+        <div className="evening time-of-day row">
+            <div className="icon col-7">
+                     <h2>
+                    Description
                 </h2>
-                <h3>
-                    Time
-                </h3>
+                <h3>🍕</h3>
             </div>
-            <div className="icon col-4">
-                ☔️
-            </div>
-            <div className="forcast col-4">
+            <div className="forcast col-5">
+                <h2>Evening</h2>
+                <h3>Time</h3>
                 <ul>
                     <li>Temp</li>
                     <li>Description</li>
@@ -66,19 +57,16 @@ export default function Forecast(){
                 </ul>
             </div>
         </div>
-        <div className="day-after-that new-day row">
-            <div className="far-left col-4">
-                <h2>
-                    Day After That
+        <div className="night time-of-day row">
+            <div className="icon col-7">
+                       <h2>
+                    Description
                 </h2>
-                <h3>
-                    Time
-                </h3>
+                <h3>🍕</h3>
             </div>
-            <div className="icon col-4">
-                ☔️
-            </div>
-            <div className="forcast col-4">
+            <div className="forcast col-5">
+                <h2>Night</h2>
+                <h3>Time</h3>
                 <ul>
                     <li>Temp</li>
                     <li>Description</li>
