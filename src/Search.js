@@ -22,8 +22,7 @@ export default function Search() {
                        <i className="fas fa-search"></i>
                   </button>
                   <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                      <li>
-                           <a className="dropdown-item" href="#">
+                      <li className="dropdown-item">
                                  <form onSubmit={handleSubmit} className="search-bar">
                                     <input
                                         type="search"
@@ -31,17 +30,12 @@ export default function Search() {
                                         onChange={changeCity}/>
                                     <input type="submit" className="search-button" value= "Search"></input>
                                   </form>
-                            </a>
                         </li>
-                        <li>
-                          <a className="dropdown-item farenheit" href="#">
+                        <li className="dropdown-item">
                             Farenheit
-                          </a>
                         </li>
-                        <li>
-                          <a className="dropdown-item celsius" href="#">
+                        <li className="dropdown-item">
                             Celsius
-                          </a>
                         </li>
                     </ul>
                 </div>
