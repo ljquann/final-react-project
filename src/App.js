@@ -4,7 +4,7 @@ function App() {
    <body>
 <div class="container">
     <header class="row">
-        <h1 class="col-8">City Name </h1>
+        <h1 class="col-8">City Name</h1>
         <div class="buttons col-4">
             <button class="search-button"><i class="fas fa-search"></i></button>
             <button class="farenheit"> °F </button>
