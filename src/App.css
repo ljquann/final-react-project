@@ -9,27 +9,25 @@ button {
   border-radius: 15px;
   padding: 0.5em;
 }
-footer {
-  font-size: 0.8em;
-}
 h1 {
-  font-size: 2.5em;
+  font-size: 2em;
 }
 h2 {
-  font-size: 2em;
+  font-size: 1.5em;
   text-align: center;
 }
 h3 {
-  font-size: 1.3em;
+  font-size: 1em;
   text-align: center;
+}
+h4 {
+  font-size: 1em;
 }
 header {
   background-color: #09015f;
   display: flex;
   justify-content: center;
   padding: 2em;
-  position: relative;
-  right: 5px;
   width: 450px;
 }
 li {
@@ -44,7 +42,8 @@ li {
 }
 .container {
   width: 450px;
-  height: 100vh;
+  height: 100%;
+  padding: 0;
 }
 .farenheit {
   margin-right: 0.5em;
@@ -56,7 +55,7 @@ li {
 .new-day {
   display: flex;
   justify-content: space-between;
-  padding: 1.5em;
+  padding: 1em;
 }
 .search-bar {
   display: block;
