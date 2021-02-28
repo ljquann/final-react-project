@@ -31,11 +31,17 @@ li {
 }
 .buttons {
   display: flex;
-  justify-content: space-between;
   max-height: 2.5em;
 }
+.celsius {
+  margin-left: 1em;
+}
 .container {
-  max-width: 500px;
+  max-width: 480px;
+  max-height: 100vh;
+}
+.farenheit {
+  margin-right: 1em;
 }
 .icon {
   text-align: center;
@@ -45,6 +51,12 @@ li {
   display: flex;
   justify-content: space-between;
   padding: 1.5em;
+}
+.search-bar {
+  display: block;
+  position: relative;
+  left: 5em;
+  padding-bottom: 2em;
 }
 .today {
   background-color: #af0069;

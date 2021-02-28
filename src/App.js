@@ -1,15 +1,11 @@
 import './App.css';
+import Search from "./Search";
 function App() {
   return (
    <body>
 <div class="container">
     <header class="row">
-        <h1 class="col-8">City Name</h1>
-        <div class="buttons col-4">
-            <button class="search-button"><i class="fas fa-search"></i></button>
-            <button class="farenheit"> °F </button>
-            <button class="celsius"> °C </button>
-        </div>
+       <Search />
     </header>
     <main>
         <div class="today new-day row">
