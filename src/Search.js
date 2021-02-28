@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import bootstrap from "bootstrap";
 
 export default function Search() {
   const [city, setCity] = useState(" ");
