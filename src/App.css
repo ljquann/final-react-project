@@ -5,15 +5,17 @@ body {
 }
 button {
   border: none;
-  border-radius: 15px;
-  padding: 0.5em;
+  border-radius: 5px;
+  font-size: 0.7em;
+  padding: 0.3em;
 }
 h1 {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 h2 {
   font-size: 1.5em;
   text-align: center;
+  padding: 1em, 1em, 0em, 1em;
 }
 h3 {
   font-size: 1em;
@@ -24,42 +26,54 @@ h4 {
 }
 header {
   background-color: #8ba892;
-  padding: 2em;
-}
-li {
-  list-style-type: none;
-}
-.celsius {
-  margin-left: 0.5em;
-}
-.container {
-  width: 450px;
-}
-.farenheit {
-  margin-right: 0.5em;
-}
-.icon {
-  text-align: center;
-  padding-top: 2em;
-}
-.time-of-day {
   display: flex;
   justify-content: space-between;
   padding: 1em;
 }
-.morning {
-  background-color: #f2d974;
-  display: flex;
+li {
+  list-style-type: none;
+}
+.container {
+  width: 400px;
 }
 .day {
   background-color: #c7956d;
   display: flex;
 }
+.dropdown {
+  display: block;
+  float: right;
+}
+.dropdown-menu {
+  background-color: rgba(199, 149, 109, 0.98);
+}
+.dropdown-toggle {
+  background-color: rgba(92, 99, 106, 0.9);
+}
 .evening {
   background-color: #965d62;
+  display: flex;
+}
+.fa-map-marker-alt {
+  font-size: 1.5em;
+  padding-right: 0.3em;
+}
+.forecast li {
+  font-size: 0.6em;
+}
+.icon {
+  text-align: center;
+}
+.morning {
+  background-color: #f2d974;
   display: flex;
 }
 .night {
   background-color: #534e52;
   display: flex;
+}
+.time-of-day {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
 }

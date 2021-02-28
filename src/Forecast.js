@@ -10,7 +10,7 @@ export default function Forecast(){
                 </h2>
                 <h3>🍕</h3>
             </div>
-            <div className="forcast col-5">
+            <div className="weather-info col-5">
                 <h2>Morning</h2>
                 <h3>Time</h3>
                 <ul>
@@ -28,7 +28,7 @@ export default function Forecast(){
                 </h2>
                 <h3>🍕</h3>
             </div>
-            <div className="forcast col-5">
+            <div className="weather-info col-5">
                 <h2>Day</h2>
                 <h3>Time</h3>
                 <ul>
@@ -46,7 +46,7 @@ export default function Forecast(){
                 </h2>
                 <h3>🍕</h3>
             </div>
-            <div className="forcast col-5">
+            <div className="weather-info col-5">
                 <h2>Evening</h2>
                 <h3>Time</h3>
                 <ul>
@@ -64,7 +64,7 @@ export default function Forecast(){
                 </h2>
                 <h3>🍕</h3>
             </div>
-            <div className="forcast col-5">
+            <div className="weather-info col-5">
                 <h2>Night</h2>
                 <h3>Time</h3>
                 <ul>
