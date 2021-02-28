@@ -16,7 +16,7 @@ export default function Search() {
 
   return (
     <header className="search row">
-        <h1 className="col-8"> <i class="fas fa-map-marker-alt"></i> {displayCity} </h1>
+        <h1 className="col-8"> <i className="fas fa-map-marker-alt"></i> {displayCity} </h1>
         <div className="buttons col-4">
               <div className="dropdown">
                   <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">

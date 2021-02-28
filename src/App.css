@@ -14,19 +14,25 @@ h1 {
 }
 h2 {
   font-size: 1.5em;
+  margin-bottom: 0em;
   text-align: center;
-  padding: 1em, 1em, 0em, 1em;
+  padding: 1em, 1em, 1em, 1em;
 }
 h3 {
   font-size: 1em;
+  margin-top: 0em;
   text-align: center;
+  padding-top: 0em;
 }
 h4 {
   font-size: 1em;
+  padding-top: 1em;
 }
 header {
   background-color: #8ba892;
+  color: #f1f7f2;
   display: flex;
+  font-weight: 500;
   justify-content: space-between;
   padding: 1em;
 }
@@ -35,10 +41,6 @@ li {
 }
 .container {
   width: 400px;
-}
-.day {
-  background-color: #c7956d;
-  display: flex;
 }
 .dropdown {
   display: block;
@@ -52,6 +54,7 @@ li {
 }
 .evening {
   background-color: #965d62;
+  color: #f7e7e4;
   display: flex;
 }
 .fa-map-marker-alt {
@@ -65,11 +68,18 @@ li {
   text-align: center;
 }
 .morning {
-  background-color: #f2d974;
+  background-color: #e2c964;
+  color: white;
   display: flex;
 }
 .night {
   background-color: #534e52;
+  color: #e0dadf;
+  display: flex;
+}
+.midday {
+  background-color: #c7956d;
+  color: #f9efe8;
   display: flex;
 }
 .time-of-day {
