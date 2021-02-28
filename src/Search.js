@@ -14,7 +14,7 @@ export default function Search() {
   }
 
   return (
-    <div className="Search">
+    <div className="search">
          <form onSubmit={handleSubmit} className="search-bar">
             <input
             type="search"
