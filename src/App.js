@@ -98,7 +98,7 @@ function App() {
         </div>
     </main>
     <footer>
-        <h4>This website was coded by <a href="https://www.lauraquann.com" target="_blank">Laura Quann</a>.</h4>
+        <h4>This website was coded by <a href="https://www.lauraquann.com" target="_blank" rel="noreferrer">Laura Quann</a>.</h4>
     </footer>
 </div>
 </body>
