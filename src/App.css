@@ -1,2 +1,64 @@
-
-
+body {
+  background-color: black;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+}
+button {
+  background-color: #ffcc29;
+  border: none;
+  border-radius: 15px;
+  padding: 0.5em;
+}
+h1 {
+  font-size: 2.5em;
+}
+h2 {
+  font-size: 2em;
+  text-align: center;
+}
+h3 {
+  font-size: 1.3em;
+  text-align: center;
+}
+header {
+  background-color: #09015f;
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+}
+li {
+  list-style-type: none;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  max-height: 2.5em;
+}
+.container {
+  max-width: 500px;
+}
+.icon {
+  text-align: center;
+  padding-top: 2em;
+}
+.new-day {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5em;
+}
+.today {
+  background-color: #af0069;
+  display: flex;
+}
+.tomorrow {
+  background-color: #db6400;
+  display: flex;
+}
+.day-after-tomorrow {
+  background-color: #81b214;
+  display: flex;
+}
+.day-after-that {
+  background-color: #52057b;
+  display: flex;
+}
