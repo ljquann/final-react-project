@@ -4,7 +4,6 @@ import axios from "axios";
 export default function Weather() {
   const [city, setCity] = useState(" ");
   const [displayCity, setDisplayCity] = useState("");
-  const [todayDescription, setTodayDescription]=useState("");
 const apiKey="2ab0b590fd9866ef804df5849d5ef74a";
   const apiUrl=`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`;
 
@@ -12,18 +11,12 @@ const apiKey="2ab0b590fd9866ef804df5849d5ef74a";
   event.preventDefault();
   axios.get(apiUrl).then(apiCity);
   }
-  function apiCity(response){
+
+function apiCity(response){
  console.log(response);
  setDisplayCity(response.data.main.name);
- setTodayDescription(response.data.main.weather[0].main);
+  }
  
- const forecastUrl=`https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${apiKey}`;
- axios.get(forecastUrl).then(displayForecast);
-  }
-  function displayForecast(response){
-      console.log(response);
-
-  }
   function changeCity(event) {
     event.preventDefault();
     setCity(event.target.value);
@@ -62,7 +55,7 @@ const apiKey="2ab0b590fd9866ef804df5849d5ef74a";
                 <div className="row-visible row">
                     <div className="col-7">
                         <h2>
-                             {todayDescription}
+                             Description
                          </h2>
                     </div>
                     <div className="col-5">
