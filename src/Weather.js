@@ -4,7 +4,7 @@ import axios from "axios";
 export default function Weather() {
   const [city, setCity] = useState(" ");
   const [displayCity, setDisplayCity] = useState("");
-const apiKey="2ab0b590fd9866ef804df5849d5ef74a";
+  const apiKey="2ab0b590fd9866ef804df5849d5ef74a";
   const apiUrl=`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`;
 
   function handleSubmit(event) {
@@ -15,8 +15,7 @@ const apiKey="2ab0b590fd9866ef804df5849d5ef74a";
 function apiCity(response){
  console.log(response);
  setDisplayCity(response.data.main.name);
-  }
- 
+}
   function changeCity(event) {
     event.preventDefault();
     setCity(event.target.value);
