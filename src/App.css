@@ -11,6 +11,7 @@ button {
 }
 h1 {
   font-size: 1.5em;
+  padding-right: 1em;
 }
 h2 {
   font-size: 1.5em;
@@ -39,8 +40,22 @@ header {
 li {
   list-style-type: none;
 }
+.city-bar {
+  display: flex;
+  flex-direction: row;
+}
 .container {
   width: 400px;
+}
+.day-after-that {
+  background-color: #534e52;
+  color: #e0dadf;
+  display: flex;
+}
+.day-after-tomorrow {
+  background-color: #965d62;
+  color: #f7e7e4;
+  display: flex;
 }
 .dropdown {
   display: block;
@@ -52,14 +67,12 @@ li {
 .dropdown-toggle {
   background-color: rgba(92, 99, 106, 0.9);
 }
-.evening {
-  background-color: #965d62;
-  color: #f7e7e4;
-  display: flex;
-}
 .fa-map-marker-alt {
   font-size: 1.5em;
   padding-right: 0.3em;
+}
+.farenheit-button {
+  padding-left: 0;
 }
 .forecast li {
   font-size: 0.6em;
@@ -67,22 +80,24 @@ li {
 .icon {
   text-align: center;
 }
-.morning {
+.today {
   background-color: #e2c964;
   color: white;
   display: flex;
 }
-.night {
-  background-color: #534e52;
-  color: #e0dadf;
-  display: flex;
-}
-.midday {
+.tomorrow {
   background-color: #c7956d;
   color: #f9efe8;
   display: flex;
 }
-.time-of-day {
+.unit-button {
+  background-color: transparent;
+  border: none;
+  color: #f1f7f2;
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+}
+.what-day {
   display: flex;
   justify-content: space-between;
   padding: 1em;
